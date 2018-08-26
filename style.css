@@ -1,0 +1,68 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0, 255, 0, 0.1);
+  text-align: center;
+  padding: 200px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+#banner {
+  background-image: url("https://img2.goodfon.ru/wallpaper/big/e/e9/belyy-noutbuk-pleer.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 500px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: 3px solid;
+  position: relative;
+  top: 100px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.share {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
